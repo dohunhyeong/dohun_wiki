@@ -1,0 +1,63 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "중요 대화 메모",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}\n\n---\n## 인제스트 메모\n- 이 대화에서 얻은 인사이트: \n- 나의 생각 변화: \n- 연결될 개념/사람 페이지: \n- 기록으로 남길 이유: ",
+	"properties": [
+		{
+			"name": "raw_type",
+			"value": "conversation",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "participants",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "context",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "conversation_date",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "raw/conversation",
+			"type": "multitext"
+		},
+		{
+			"name": "ingest_status",
+			"value": "pending",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"claude.ai",
+		"chat.openai.com",
+		"chatgpt.com",
+		"gemini.google.com",
+		"perplexity.ai",
+		"poe.com"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "raw/conversations"
+}

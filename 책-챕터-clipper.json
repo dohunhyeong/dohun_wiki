@@ -1,0 +1,61 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "책 챕터 노트",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}\n\n---\n## 인제스트 메모\n- 챕터 핵심 주장: \n- 기억할 예시/사례: \n- 연결될 개념 페이지: \n- 다음에 읽을 챕터: ",
+	"properties": [
+		{
+			"name": "raw_type",
+			"value": "book",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "book_title",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "chapter",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\", \"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "raw/book",
+			"type": "multitext"
+		},
+		{
+			"name": "ingest_status",
+			"value": "pending",
+			"type": "text"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "raw/books"
+}

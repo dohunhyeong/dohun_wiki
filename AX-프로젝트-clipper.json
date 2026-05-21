@@ -1,0 +1,74 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "AX 프로젝트 문서",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}\n\n---\n## 인제스트 메모\n- 이 문서가 프로젝트에서 갖는 의미: \n- 결정된 사항 / 미결 사항: \n- 연결될 프로젝트 위키 페이지: \n- 후속 액션: ",
+	"properties": [
+		{
+			"name": "raw_type",
+			"value": "project",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "project_name",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "stakeholders",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "doc_date",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "status",
+			"value": "active",
+			"type": "text"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "raw/project",
+			"type": "multitext"
+		},
+		{
+			"name": "ingest_status",
+			"value": "pending",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"notion.so",
+		"docs.google.com",
+		"slides.google.com",
+		"confluence.atlassian.com",
+		"app.clickup.com",
+		"linear.app",
+		"miro.com"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "raw/projects"
+}

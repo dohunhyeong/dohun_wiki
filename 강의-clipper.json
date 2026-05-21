@@ -1,0 +1,72 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "강의 노트",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}\n\n---\n## 인제스트 메모\n- 강의 핵심 메시지: \n- 이해가 안 된 부분: \n- 연결될 개념 페이지: \n- 다음 강의/세션: ",
+	"properties": [
+		{
+			"name": "raw_type",
+			"value": "lecture",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "course",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "instructor",
+			"value": "{{author|split:\", \"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "lecture_date",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "description",
+			"value": "{{description}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "raw/lecture",
+			"type": "multitext"
+		},
+		{
+			"name": "ingest_status",
+			"value": "pending",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"youtube.com",
+		"youtu.be",
+		"coursera.org",
+		"udemy.com",
+		"edx.org",
+		"fast.ai",
+		"d2l.ai",
+		"kmooc.kr",
+		"class101.net",
+		"inflearn.com"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "raw/lectures"
+}

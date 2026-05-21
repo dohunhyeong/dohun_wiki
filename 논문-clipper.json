@@ -1,0 +1,73 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "논문 (Paper)",
+	"behavior": "create",
+	"noteContentFormat": "## Abstract\n{{description}}\n\n---\n{{content}}\n\n---\n## 인제스트 메모\n- 핵심 기여: \n- 연결될 개념 페이지: \n- 실용적 적용점: \n- 한계 및 주의사항: ",
+	"properties": [
+		{
+			"name": "raw_type",
+			"value": "paper",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\", \"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "journal",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "doi",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "raw/paper",
+			"type": "multitext"
+		},
+		{
+			"name": "ingest_status",
+			"value": "pending",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"arxiv.org",
+		"semanticscholar.org",
+		"pubmed.ncbi.nlm.nih.gov",
+		"dl.acm.org",
+		"ieeexplore.ieee.org",
+		"openreview.net",
+		"aclanthology.org",
+		"springer.com",
+		"nature.com",
+		"sciencedirect.com",
+		"papers.ssrn.com"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": "raw/papers"
+}

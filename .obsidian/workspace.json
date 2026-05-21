@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0cd679689550eb84",
+        "id": "000b8477dbf9de1f",
         "type": "tabs",
         "children": [
           {
@@ -214,6 +214,17 @@
   },
   "active": "27b8d26adf285b65",
   "lastOpenFiles": [
+    "wiki/self/나의 위키 시스템.md",
+    "raw/articles/멀티 에이전트 시대, 기업 문서 업무 자동화도 ‘관리 가능한 AI’가 필요하다.md",
+    "raw/articles/AI는 왜 틀리는가? 그 답은 온톨로지에 있다.md",
+    "raw/articles/온톨로지 - 위키백과, 우리 모두의 백과사전.md",
+    "대화-clipper.json",
+    "AX-프로젝트-clipper.json",
+    "강의-clipper.json",
+    "책-챕터-clipper.json",
+    "논문-clipper.json",
+    "아티클-clipper.json",
+    "기본-템플릿-clipper.json",
     "환영합니다!.md",
     "나의 핵심 맥락.md",
     "wiki/log.md",
@@ -224,13 +235,6 @@
     "output/reports",
     "output/presentations",
     "output/memos",
-    "output",
-    "wiki/self",
-    "wiki/projects",
-    "wiki/people",
-    "wiki/concepts",
-    "wiki",
-    "raw/projects",
     "LLM Wiki.md",
     "CLAUDE.md"
   ]
