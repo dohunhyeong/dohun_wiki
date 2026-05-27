@@ -1,0 +1,4 @@
+/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md
+/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md
+/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md
+/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md

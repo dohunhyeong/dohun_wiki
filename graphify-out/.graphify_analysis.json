@@ -1,0 +1,101 @@
+{
+  "communities": {
+    "0": [
+      "aitech_hallucination",
+      "axsil_enterprise_doc_auto",
+      "axsil_manageable_auto",
+      "axsil_multi_agent",
+      "rationale_hitl_design",
+      "rationale_manageable_vs_maximal_auto",
+      "sources_ai_hallucination_ontology",
+      "sources_multi_agent_doc_auto"
+    ],
+    "1": [
+      "aitech_graphdb",
+      "aitech_knowledge_graph",
+      "axsil_ai_ready_data",
+      "rationale_ai_ready_data_failure_pattern",
+      "rationale_graphdb_vs_rdbms_flexibility",
+      "sources_ontology_graphdb_encored"
+    ],
+    "2": [
+      "aitech_ontology",
+      "rationale_data_model_vs_ontology",
+      "rationale_ontology_upstream_design",
+      "sources_ontology_wikipedia"
+    ],
+    "3": [
+      "rationale_wiki_ingest_workflow",
+      "self_wiki_system"
+    ],
+    "4": [
+      "wiki_claude",
+      "wiki_index"
+    ],
+    "5": [
+      "wiki_log"
+    ]
+  },
+  "cohesion": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0
+  },
+  "gods": [
+    {
+      "id": "aitech_ontology",
+      "label": "온톨로지 (Ontology)",
+      "degree": 12
+    },
+    {
+      "id": "axsil_manageable_auto",
+      "label": "관리 가능한 자동화 (Manageable Automation)",
+      "degree": 10
+    },
+    {
+      "id": "axsil_enterprise_doc_auto",
+      "label": "기업 문서 자동화 (Enterprise Document Automation)",
+      "degree": 9
+    },
+    {
+      "id": "axsil_ai_ready_data",
+      "label": "AI Ready Data",
+      "degree": 7
+    },
+    {
+      "id": "aitech_graphdb",
+      "label": "그래프DB (Graph Database)",
+      "degree": 6
+    },
+    {
+      "id": "sources_ontology_graphdb_encored",
+      "label": "소스: 온톨로지 기반 그래프DB 구축 방법론 (엔코아 김선영)",
+      "degree": 6
+    },
+    {
+      "id": "sources_ai_hallucination_ontology",
+      "label": "소스: AI는 왜 틀리는가? 그 답은 온톨로지에 있다 (한국딥러닝)",
+      "degree": 6
+    },
+    {
+      "id": "axsil_multi_agent",
+      "label": "멀티 에이전트 (Multi-Agent)",
+      "degree": 5
+    },
+    {
+      "id": "aitech_knowledge_graph",
+      "label": "지식 그래프 & 디지털 맥락지도",
+      "degree": 5
+    },
+    {
+      "id": "aitech_hallucination",
+      "label": "할루시네이션 (Hallucination)",
+      "degree": 4
+    }
+  ],
+  "surprises": [],
+  "questions": []
+}

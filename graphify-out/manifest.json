@@ -1,0 +1,87 @@
+{
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md": {
+    "mtime": 1779865405.0899282,
+    "ast_hash": "5a1fb49b40e4e136dbfcfee838216a15",
+    "semantic_hash": "5a1fb49b40e4e136dbfcfee838216a15"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md": {
+    "mtime": 1779865395.2870903,
+    "ast_hash": "226edb30bdeb7daffc33ea4fa24a46b0",
+    "semantic_hash": "226edb30bdeb7daffc33ea4fa24a46b0"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md": {
+    "mtime": 1779861150.9051912,
+    "ast_hash": "46d64f7c2d9e48971de9855a9887dfce",
+    "semantic_hash": "46d64f7c2d9e48971de9855a9887dfce"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/self/\ub098\uc758 \uc704\ud0a4 \uc2dc\uc2a4\ud15c.md": {
+    "mtime": 1779384757.6243217,
+    "ast_hash": "9ade602694ccbe922396af9905e3f834",
+    "semantic_hash": "9ade602694ccbe922396af9905e3f834"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/people/\uae40\uc120\uc601-\uc5d4\ucf54\uc544.md": {
+    "mtime": 1779865037.6065218,
+    "ast_hash": "0b728fd1e454c0dec2724f5325e0cb62",
+    "semantic_hash": "0b728fd1e454c0dec2724f5325e0cb62"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ax-\uc2e4\ubb34/AI-Ready-Data.md": {
+    "mtime": 1779864990.79661,
+    "ast_hash": "84a2d1ff81e0d1e03d8e500dde1a44d9",
+    "semantic_hash": "84a2d1ff81e0d1e03d8e500dde1a44d9"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ax-\uc2e4\ubb34/\uba40\ud2f0-\uc5d0\uc774\uc804\ud2b8.md": {
+    "mtime": 1779859960.1955082,
+    "ast_hash": "7b907a249c5e9f93869d458283abfc4f",
+    "semantic_hash": "7b907a249c5e9f93869d458283abfc4f"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ax-\uc2e4\ubb34/\uae30\uc5c5-\ubb38\uc11c-\uc790\ub3d9\ud654.md": {
+    "mtime": 1779860973.8915427,
+    "ast_hash": "ddfdeec0e86cee01a5298eaa19310f83",
+    "semantic_hash": "ddfdeec0e86cee01a5298eaa19310f83"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md": {
+    "mtime": 1779860982.201225,
+    "ast_hash": "4df85f717b1a494de4a0f46c278804dd",
+    "semantic_hash": "4df85f717b1a494de4a0f46c278804dd"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md": {
+    "mtime": 1779864954.4439576,
+    "ast_hash": "dc47db91fc1045ee140c6a4829e61820",
+    "semantic_hash": "dc47db91fc1045ee140c6a4829e61820"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ai-\uae30\uc220/\ud560\ub8e8\uc2dc\ub124\uc774\uc158.md": {
+    "mtime": 1779860694.2318015,
+    "ast_hash": "122ec882581c275c22907fa8e618d8ce",
+    "semantic_hash": "122ec882581c275c22907fa8e618d8ce"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md": {
+    "mtime": 1779865307.4009366,
+    "ast_hash": "c17f5a300eff4d59783df44a86eb4cde",
+    "semantic_hash": "c17f5a300eff4d59783df44a86eb4cde"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md": {
+    "mtime": 1779864898.0577838,
+    "ast_hash": "de09ba2f23116ba3a4e446a39e5b0204",
+    "semantic_hash": "de09ba2f23116ba3a4e446a39e5b0204"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md": {
+    "mtime": 1779864861.4679182,
+    "ast_hash": "5fc0f4db4d1d949d28604ddc34a131ce",
+    "semantic_hash": "5fc0f4db4d1d949d28604ddc34a131ce"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md": {
+    "mtime": 1779860630.0756683,
+    "ast_hash": "518f5b15ab620b459a1224e1a818518d",
+    "semantic_hash": "518f5b15ab620b459a1224e1a818518d"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md": {
+    "mtime": 1779859924.2730086,
+    "ast_hash": "1577f1272fd18e84d6cbab95146ace98",
+    "semantic_hash": "1577f1272fd18e84d6cbab95146ace98"
+  },
+  "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/\uc628\ud1a8\ub85c\uc9c0-\uc704\ud0a4\ud53c\ub514\uc544.md": {
+    "mtime": 1779861229.7923112,
+    "ast_hash": "3c7253e62eadbed80b57ad6f03a1a967",
+    "semantic_hash": "3c7253e62eadbed80b57ad6f03a1a967"
+  }
+}

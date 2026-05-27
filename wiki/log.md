@@ -5,6 +5,30 @@
 
 ---
 
+## [2026-05-27] update | learning-gaps.md 생성
+- 신규 페이지: [[learning-gaps]] (self/)
+- 각 개념 페이지의 `빈 곳` 섹션 집계 + 위키 전체 미생성 페이지 목록 추가
+- index.md 업데이트 (총 페이지 수 15)
+
+## [2026-05-27] lint | people/ 섹션 제거
+- [[김선영-엔코아]] 페이지 삭제
+- wiki/people/ 디렉터리 삭제
+- wiki/index.md, wiki/CLAUDE.md에서 people/ 섹션 제거
+- sources/온톨로지그래프DB-엔코아-김선영.md 관련 링크 정리
+- 총 페이지 수: 15 → 14
+
+## [2026-05-27] graphify | wiki/ 지식 그래프 생성
+- 17개 .md 파일 분석 → 24 nodes, 66 edges, 7 communities
+- 커뮤니티: 그래프DB·AI데이터전략 / 위키메타·할루시네이션 / 온톨로지핵심 / 멀티에이전트·문서자동화 / 관리가능한자동화 / 위키시스템 / 위키운영규칙
+- 출력: `graphify-out/graph.html`, `graphify-out/GRAPH_REPORT.md`, `graphify-out/graph.json`
+
+## [2026-05-27] ingest | 온톨로지 기반 그래프DB 구축 방법론 및 Usecase (엔코아 김선영)
+- 출처: 토크아이티 / 엔코아 김선영 (2026-04-17, 유튜브 웨비나)
+- raw: `raw/articles/온톨로지 기반 그래프DB 구축 방법론 및 Usecase feat. 데이터 맥락지도 김선영의 AI-Ready Data@토크아이티 ep.2, 엔코아.md`
+- 캡처 이유: 온톨로지 기반 그래프DB 구축 방법론 및 AI Ready Data 전략 인사이트 수집
+- 신규 페이지: [[온톨로지그래프DB-엔코아-김선영]], [[그래프DB]], [[지식-그래프-디지털-맥락지도]], [[AI-Ready-Data]], [[김선영-엔코아]]
+- 업데이트: [[온톨로지]] (그래프DB 구현 연결, sources 3으로 갱신), [[index.md]] (people/ 섹션 신설)
+
 ## [2026-05-27] ingest | 온톨로지 - 위키백과
 - 출처: Wikipedia (한국어)
 - raw: `raw/articles/온톨로지 - 위키백과, 우리 모두의 백과사전.md`

@@ -1,0 +1,644 @@
+{
+  "nodes": [
+    {
+      "id": "wiki_log",
+      "label": "Wiki Log",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "wiki_index",
+      "label": "Wiki Index",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "wiki_claude_md",
+      "label": "Wiki 운영 규칙 (CLAUDE.md)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "source_ontology_graphdb_encoa",
+      "label": "소스 요약: 온톨로지 기반 그래프DB 구축 방법론 (엔코아)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "ontology",
+      "label": "온톨로지 (Ontology)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "온톨로지핵심"
+    },
+    {
+      "id": "graph_db",
+      "label": "그래프DB (Graph Database)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "knowledge_graph_digital_context_map",
+      "label": "지식 그래프 / 디지털 맥락지도",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "ai_ready_data",
+      "label": "AI-Ready Data",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "ai_basic_law",
+      "label": "AI 기본법 (2026.01.22 시행)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "agentic_unified_meta",
+      "label": "Agentic Unified META",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "rdbms",
+      "label": "RDBMS",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "rag",
+      "label": "RAG",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "neo4j",
+      "label": "Neo4j",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "ai_agent",
+      "label": "AI Agent",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "멀티에이전트·문서자동화"
+    },
+    {
+      "id": "data_governance",
+      "label": "AI 거버넌스 / 데이터 거버넌스",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "encoa",
+      "label": "엔코아",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "metadata_strategy",
+      "label": "메타데이터 전략",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "community_hint": "그래프DB·AI데이터전략"
+    },
+    {
+      "id": "hallucination",
+      "label": "할루시네이션 (Hallucination)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "위키메타·할루시네이션"
+    },
+    {
+      "id": "multi_agent",
+      "label": "멀티-에이전트",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "멀티에이전트·문서자동화"
+    },
+    {
+      "id": "enterprise_doc_automation",
+      "label": "기업-문서-자동화",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "멀티에이전트·문서자동화"
+    },
+    {
+      "id": "manageable_automation",
+      "label": "관리-가능한-자동화",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "관리가능한자동화"
+    },
+    {
+      "id": "source_multi_agent_doc",
+      "label": "소스: 멀티에이전트-기업문서자동화-한국딥러닝",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "멀티에이전트·문서자동화"
+    },
+    {
+      "id": "source_why_ai_fails_ontology",
+      "label": "소스: AI는왜틀리는가-온톨로지-한국딥러닝",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "온톨로지핵심"
+    },
+    {
+      "id": "source_ontology_wikipedia",
+      "label": "소스: 온톨로지-위키피디아",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "온톨로지핵심"
+    },
+    {
+      "id": "self_core_context",
+      "label": "나의 핵심 맥락 (Dohun)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "위키시스템"
+    },
+    {
+      "id": "self_wiki_system",
+      "label": "나의 위키 시스템",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md",
+      "community_hint": "위키시스템"
+    },
+    {
+      "id": "concepts_ai_tech",
+      "label": "concepts/ai-기술/ 폴더",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "concepts_ax_practice",
+      "label": "concepts/ax-실무/ 폴더",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "sources_folder",
+      "label": "sources/ 폴더",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "lint_event_people_removed",
+      "label": "Lint 이벤트: people/ 섹션 제거 (2026-05-27)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md",
+      "community_hint": "위키운영규칙"
+    },
+    {
+      "id": "graphify_event",
+      "label": "Graphify 이벤트: 지식 그래프 생성 (2026-05-27)",
+      "source_file": "/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md",
+      "community_hint": "위키운영규칙"
+    }
+  ],
+  "edges": [
+    {
+      "source": "source_ontology_graphdb_encoa",
+      "target": "ontology",
+      "relation": "relates_to",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "source_ontology_graphdb_encoa",
+      "target": "graph_db",
+      "relation": "relates_to",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "source_ontology_graphdb_encoa",
+      "target": "knowledge_graph_digital_context_map",
+      "relation": "relates_to",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "source_ontology_graphdb_encoa",
+      "target": "ai_ready_data",
+      "relation": "relates_to",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "source_ontology_graphdb_encoa",
+      "target": "enterprise_doc_automation",
+      "relation": "enriches",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "source_ontology_graphdb_encoa",
+      "target": "manageable_automation",
+      "relation": "enriches",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "graph_db",
+      "target": "ontology",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "graph_db",
+      "target": "rdbms",
+      "relation": "contrasts_with",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "graph_db",
+      "target": "neo4j",
+      "relation": "has_example",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "knowledge_graph_digital_context_map",
+      "target": "ai_agent",
+      "relation": "enables",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "ai_ready_data",
+      "target": "rag",
+      "relation": "prerequisite_for",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "ai_ready_data",
+      "target": "ai_basic_law",
+      "relation": "relates_to",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "ai_basic_law",
+      "target": "data_governance",
+      "relation": "mandates",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "agentic_unified_meta",
+      "target": "ai_agent",
+      "relation": "supports",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "agentic_unified_meta",
+      "target": "metadata_strategy",
+      "relation": "is_a",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "encoa",
+      "target": "source_ontology_graphdb_encoa",
+      "relation": "authored",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "encoa",
+      "target": "knowledge_graph_digital_context_map",
+      "relation": "coined_concept",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "ontology",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "hallucination",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "graph_db",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "knowledge_graph_digital_context_map",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "multi_agent",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "enterprise_doc_automation",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "manageable_automation",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "ai_ready_data",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "source_multi_agent_doc",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "source_why_ai_fails_ontology",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "source_ontology_wikipedia",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "source_ontology_graphdb_encoa",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "self_core_context",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_index",
+      "target": "self_wiki_system",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "wiki_claude_md",
+      "target": "concepts_ai_tech",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "wiki_claude_md",
+      "target": "concepts_ax_practice",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "wiki_claude_md",
+      "target": "sources_folder",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "concepts_ai_tech",
+      "target": "ontology",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "concepts_ai_tech",
+      "target": "hallucination",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "concepts_ax_practice",
+      "target": "multi_agent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "concepts_ax_practice",
+      "target": "enterprise_doc_automation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "concepts_ax_practice",
+      "target": "manageable_automation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "sources_folder",
+      "target": "source_ontology_graphdb_encoa",
+      "relation": "contains",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "source": "wiki_log",
+      "target": "wiki_index",
+      "relation": "records_updates_to",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "wiki_log",
+      "target": "source_ontology_graphdb_encoa",
+      "relation": "records_ingest_of",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "wiki_log",
+      "target": "lint_event_people_removed",
+      "relation": "records",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "wiki_log",
+      "target": "graphify_event",
+      "relation": "records",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "source_why_ai_fails_ontology",
+      "target": "ontology",
+      "relation": "about",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "source_why_ai_fails_ontology",
+      "target": "hallucination",
+      "relation": "about",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "source_multi_agent_doc",
+      "target": "multi_agent",
+      "relation": "about",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "source_multi_agent_doc",
+      "target": "enterprise_doc_automation",
+      "relation": "about",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "hallucination",
+      "target": "ontology",
+      "relation": "addressed_by",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md", "/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "rag",
+      "target": "hallucination",
+      "relation": "related_problem",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "multi_agent",
+      "target": "manageable_automation",
+      "relation": "requires",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "enterprise_doc_automation",
+      "target": "ai_ready_data",
+      "relation": "depends_on",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "manageable_automation",
+      "target": "data_governance",
+      "relation": "relates_to",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "self_wiki_system",
+      "target": "self_core_context",
+      "relation": "describes_system_for",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "source_ontology_wikipedia",
+      "target": "ontology",
+      "relation": "about",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    },
+    {
+      "source": "graph_db",
+      "target": "knowledge_graph_digital_context_map",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "metadata_strategy",
+      "target": "ai_ready_data",
+      "relation": "component_of",
+      "confidence": "INFERRED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "source": "lint_event_people_removed",
+      "target": "wiki_index",
+      "relation": "modified",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "lint_event_people_removed",
+      "target": "wiki_claude_md",
+      "relation": "modified",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "source": "lint_event_people_removed",
+      "target": "source_ontology_graphdb_encoa",
+      "relation": "cleaned_links_in",
+      "confidence": "EXTRACTED",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    }
+  ],
+  "hyperedges": [
+    {
+      "members": ["ontology", "graph_db", "knowledge_graph_digital_context_map", "ai_agent"],
+      "label": "온톨로지 기반 AI 데이터 구조 클러스터",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "members": ["ai_ready_data", "data_governance", "ai_basic_law", "metadata_strategy"],
+      "label": "AI 데이터 전략 및 거버넌스 클러스터",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "members": ["multi_agent", "enterprise_doc_automation", "manageable_automation"],
+      "label": "AX 실무 방법론 삼각형",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md", "/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md"]
+    },
+    {
+      "members": ["wiki_log", "wiki_index", "wiki_claude_md", "sources_folder"],
+      "label": "위키 운영 시스템 클러스터",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md", "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md", "/Users/hyeongdohun/Desktop/llm_wiki/wiki/CLAUDE.md"]
+    },
+    {
+      "members": ["source_ontology_graphdb_encoa", "source_why_ai_fails_ontology", "source_ontology_wikipedia", "ontology"],
+      "label": "온톨로지 소스 클러스터",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md", "/Users/hyeongdohun/Desktop/llm_wiki/wiki/log.md"]
+    },
+    {
+      "members": ["rag", "hallucination", "ontology", "ai_ready_data"],
+      "label": "AI 실패 원인 및 해결책 클러스터",
+      "source_files": ["/Users/hyeongdohun/Desktop/llm_wiki/wiki/sources/온톨로지그래프DB-엔코아-김선영.md", "/Users/hyeongdohun/Desktop/llm_wiki/wiki/index.md"]
+    }
+  ]
+}

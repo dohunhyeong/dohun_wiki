@@ -53,9 +53,10 @@
 llm_wiki/
 ├── raw/              # 불변 원본 소스 (AI가 읽기만 함, 수정 금지)
 │   ├── articles/     # 웹 아티클, 블로그 포스트
+│   ├── videos/       # YouTube 웨비나, 발표, 강연 (raw_type: video)
 │   ├── books/        # 책 챕터 노트
 │   ├── papers/       # 논문
-│   ├── lectures/     # 강의 노트, 강의 자료
+│   ├── lectures/     # 구조화된 온라인 강의 (Coursera, Udemy 등, raw_type: lecture)
 │   ├── projects/     # AX 프로젝트 문서
 │   ├── conversations/# 중요 대화 메모
 │   └── assets/       # 이미지 (Obsidian Web Clipper 다운로드 경로)
@@ -64,7 +65,6 @@ llm_wiki/
 │   ├── concepts/     # AI, AX, 통계 등 개념 페이지
 │   ├── projects/     # AX 프로젝트 위키
 │   ├── self/         # 나 자신에 대한 지식 (결정 패턴, 회고)
-│   ├── people/       # 사람·조직 페이지
 │   ├── index.md      # 전체 위키 목록 (AI가 질문 시 가장 먼저 읽음)
 │   └── log.md        # 작업 이력 (append-only)
 │

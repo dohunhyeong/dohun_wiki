@@ -1,0 +1,814 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "ontology_graphdb_knowledge_graph_stack",
+        "label": "\uc628\ud1a8\ub85c\uc9c0 \u2192 \uc9c0\uc2dd\uadf8\ub798\ud504 \u2192 \uadf8\ub798\ud504DB: AI Ready Data \uad6c\ud604 \uc2a4\ud0dd",
+        "nodes": [
+          "aitech_ontology",
+          "aitech_knowledge_graph",
+          "aitech_graphdb",
+          "axsil_ai_ready_data"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.95,
+        "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md"
+      },
+      {
+        "id": "hallucination_ontology_rag_design",
+        "label": "\ud560\ub8e8\uc2dc\ub124\uc774\uc158 \uc6d0\uc778 \u2192 \uc628\ud1a8\ub85c\uc9c0 \ud574\uacb0 \u2192 RAG \uc124\uacc4 \uac1c\uc120",
+        "nodes": [
+          "aitech_hallucination",
+          "aitech_ontology",
+          "axsil_enterprise_doc_auto"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.9,
+        "source_file": "wiki/concepts/ai-\uae30\uc220/\ud560\ub8e8\uc2dc\ub124\uc774\uc158.md"
+      },
+      {
+        "id": "multi_agent_doc_auto_manageable_ax_pattern",
+        "label": "\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8 + \uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654 + \uad00\ub9ac\uac00\ub2a5\ud55c\uc790\ub3d9\ud654: AX \uc124\uacc4 \ud575\uc2ec \uc0bc\uac01\ud615",
+        "nodes": [
+          "axsil_multi_agent",
+          "axsil_enterprise_doc_auto",
+          "axsil_manageable_auto"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Wiki Log",
+      "source_file": "log.md",
+      "community_hint": "\uc704\ud0a4\uc6b4\uc601\uaddc\uce59",
+      "file_type": "concept",
+      "id": "wiki_log",
+      "community": 5,
+      "norm_label": "wiki log"
+    },
+    {
+      "label": "Wiki Index",
+      "source_file": "index.md",
+      "community_hint": "\uc704\ud0a4\uc6b4\uc601\uaddc\uce59",
+      "file_type": "concept",
+      "id": "wiki_index",
+      "community": 4,
+      "norm_label": "wiki index"
+    },
+    {
+      "label": "\ub098\uc758 \uc704\ud0a4 \uc2dc\uc2a4\ud15c",
+      "source_file": "index.md",
+      "community_hint": "\uc704\ud0a4\uc2dc\uc2a4\ud15c",
+      "file_type": "concept",
+      "id": "self_wiki_system",
+      "community": 3,
+      "norm_label": "\u1102\u1161\u110b\u1174 \u110b\u1171\u110f\u1175 \u1109\u1175\u1109\u1173\u1110\u1166\u11b7"
+    },
+    {
+      "label": "wiki/ \uc6b4\uc601 \uaddc\uce59 (CLAUDE.md)",
+      "source_file": "wiki/CLAUDE.md",
+      "file_type": "concept",
+      "id": "wiki_claude",
+      "community": 4,
+      "norm_label": "wiki/ \u110b\u116e\u11ab\u110b\u1167\u11bc \u1100\u1172\u110e\u1175\u11a8 (claude.md)"
+    },
+    {
+      "label": "\uc778\ud48b \ub2e8\uacc4 \uc18c\uc2a4 \ubd84\ub958 + AI \uc77c\uad00 \uc815\uc81c \uc124\uacc4: RAG \uad6c\uc870 \uacbd\ud5d8\uc5d0\uc11c \ub3c4\ucd9c",
+      "file_type": "rationale",
+      "source_file": "wiki/self/\ub098\uc758 \uc704\ud0a4 \uc2dc\uc2a4\ud15c.md",
+      "source_location": "\uc124\uacc4 \ubc30\uacbd \uc139\uc158",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Dohun",
+      "contributor": null,
+      "id": "rationale_wiki_ingest_workflow",
+      "community": 3,
+      "norm_label": "\u110b\u1175\u11ab\u1111\u116e\u11ba \u1103\u1161\u11ab\u1100\u1168 \u1109\u1169\u1109\u1173 \u1107\u116e\u11ab\u1105\u1172 + ai \u110b\u1175\u11af\u1100\u116a\u11ab \u110c\u1165\u11bc\u110c\u1166 \u1109\u1165\u11af\u1100\u1168: rag \u1100\u116e\u110c\u1169 \u1100\u1167\u11bc\u1112\u1165\u11b7\u110b\u1166\u1109\u1165 \u1103\u1169\u110e\u116e\u11af"
+    },
+    {
+      "label": "AI Ready Data",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/AI-Ready-Data.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "axsil_ai_ready_data",
+      "community": 1,
+      "norm_label": "ai ready data"
+    },
+    {
+      "label": "\uae30\uc5c5 AI \ub3c4\uc785 \uc2e4\ud328 \ud328\ud134: \uae30\uc220 \uba3c\uc800 \u2192 \ub370\uc774\ud130 \uc900\ube44 \ubd80\uc871 \u2192 \uc2e4\ub9dd",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/AI-Ready-Data.md",
+      "source_location": "\uae30\uc5c5 AI \ub3c4\uc785 \uc2e4\ud328\uc758 \ud328\ud134 \uc139\uc158",
+      "source_url": null,
+      "captured_at": null,
+      "author": "\uae40\uc120\uc601",
+      "contributor": null,
+      "id": "rationale_ai_ready_data_failure_pattern",
+      "community": 1,
+      "norm_label": "\u1100\u1175\u110b\u1165\u11b8 ai \u1103\u1169\u110b\u1175\u11b8 \u1109\u1175\u11af\u1111\u1162 \u1111\u1162\u1110\u1165\u11ab: \u1100\u1175\u1109\u116e\u11af \u1106\u1165\u11ab\u110c\u1165 \u2192 \u1103\u1166\u110b\u1175\u1110\u1165 \u110c\u116e\u11ab\u1107\u1175 \u1107\u116e\u110c\u1169\u11a8 \u2192 \u1109\u1175\u11af\u1106\u1161\u11bc"
+    },
+    {
+      "label": "\uba40\ud2f0 \uc5d0\uc774\uc804\ud2b8 (Multi-Agent)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uba40\ud2f0-\uc5d0\uc774\uc804\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "axsil_multi_agent",
+      "community": 0,
+      "norm_label": "\u1106\u1165\u11af\u1110\u1175 \u110b\u1166\u110b\u1175\u110c\u1165\u11ab\u1110\u1173 (multi-agent)"
+    },
+    {
+      "label": "\uae30\uc5c5 \ubb38\uc11c \uc790\ub3d9\ud654 (Enterprise Document Automation)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uae30\uc5c5-\ubb38\uc11c-\uc790\ub3d9\ud654.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "axsil_enterprise_doc_auto",
+      "community": 0,
+      "norm_label": "\u1100\u1175\u110b\u1165\u11b8 \u1106\u116e\u11ab\u1109\u1165 \u110c\u1161\u1103\u1169\u11bc\u1112\u116a (enterprise document automation)"
+    },
+    {
+      "label": "\uad00\ub9ac \uac00\ub2a5\ud55c \uc790\ub3d9\ud654 (Manageable Automation)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "axsil_manageable_auto",
+      "community": 0,
+      "norm_label": "\u1100\u116a\u11ab\u1105\u1175 \u1100\u1161\u1102\u1173\u11bc\u1112\u1161\u11ab \u110c\u1161\u1103\u1169\u11bc\u1112\u116a (manageable automation)"
+    },
+    {
+      "label": "\uc790\ub3d9\ud654 \ubc94\uc704 vs \ud1b5\uc81c \uac00\ub2a5\uc131 \ud2b8\ub808\uc774\ub4dc\uc624\ud504",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "\uc790\ub3d9\ud654\uc758 \ubc94\uc704 vs \ud1b5\uc81c \uac00\ub2a5\uc131 \ud2b8\ub808\uc774\ub4dc\uc624\ud504 \uc139\uc158",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun",
+      "id": "rationale_manageable_vs_maximal_auto",
+      "community": 0,
+      "norm_label": "\u110c\u1161\u1103\u1169\u11bc\u1112\u116a \u1107\u1165\u11b7\u110b\u1171 vs \u1110\u1169\u11bc\u110c\u1166 \u1100\u1161\u1102\u1173\u11bc\u1109\u1165\u11bc \u1110\u1173\u1105\u1166\u110b\u1175\u1103\u1173\u110b\u1169\u1111\u1173"
+    },
+    {
+      "label": "Human-in-the-loop: \uac1c\uc785 \uc81c\uac70\uac00 \uc544\ub2cc \uac1c\uc785 \uc9c0\uc810 \uc124\uacc4\uac00 \ubaa9\ud45c",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "Human-in-the-loop \uc139\uc158",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun",
+      "id": "rationale_hitl_design",
+      "community": 0,
+      "norm_label": "human-in-the-loop: \u1100\u1162\u110b\u1175\u11b8 \u110c\u1166\u1100\u1165\u1100\u1161 \u110b\u1161\u1102\u1175\u11ab \u1100\u1162\u110b\u1175\u11b8 \u110c\u1175\u110c\u1165\u11b7 \u1109\u1165\u11af\u1100\u1168\u1100\u1161 \u1106\u1169\u11a8\u1111\u116d"
+    },
+    {
+      "label": "\uc9c0\uc2dd \uadf8\ub798\ud504 & \ub514\uc9c0\ud138 \ub9e5\ub77d\uc9c0\ub3c4",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "aitech_knowledge_graph",
+      "community": 1,
+      "norm_label": "\u110c\u1175\u1109\u1175\u11a8 \u1100\u1173\u1105\u1162\u1111\u1173 & \u1103\u1175\u110c\u1175\u1110\u1165\u11af \u1106\u1162\u11a8\u1105\u1161\u11a8\u110c\u1175\u1103\u1169"
+    },
+    {
+      "label": "\ud560\ub8e8\uc2dc\ub124\uc774\uc158 (Hallucination)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\ud560\ub8e8\uc2dc\ub124\uc774\uc158.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "aitech_hallucination",
+      "community": 0,
+      "norm_label": "\u1112\u1161\u11af\u1105\u116e\u1109\u1175\u1102\u1166\u110b\u1175\u1109\u1167\u11ab (hallucination)"
+    },
+    {
+      "label": "\uc628\ud1a8\ub85c\uc9c0 (Ontology)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "aitech_ontology",
+      "community": 2,
+      "norm_label": "\u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175 (ontology)"
+    },
+    {
+      "label": "\uc628\ud1a8\ub85c\uc9c0 \uc5c5\uc2a4\ud2b8\ub9bc \uc124\uacc4\uac00 \ub2e4\uc6b4\uc2a4\ud2b8\ub9bc \uc5d4\uc9c0\ub2c8\uc5b4\ub9c1\uc744 \uacb0\uc815\ud55c\ub2e4",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "Dohun\uc758 \ud575\uc2ec \uc778\uc0ac\uc774\ud2b8 \uc139\uc158",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Dohun",
+      "contributor": null,
+      "id": "rationale_ontology_upstream_design",
+      "community": 2,
+      "norm_label": "\u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175 \u110b\u1165\u11b8\u1109\u1173\u1110\u1173\u1105\u1175\u11b7 \u1109\u1165\u11af\u1100\u1168\u1100\u1161 \u1103\u1161\u110b\u116e\u11ab\u1109\u1173\u1110\u1173\u1105\u1175\u11b7 \u110b\u1166\u11ab\u110c\u1175\u1102\u1175\u110b\u1165\u1105\u1175\u11bc\u110b\u1173\u11af \u1100\u1167\u11af\u110c\u1165\u11bc\u1112\u1161\u11ab\u1103\u1161"
+    },
+    {
+      "label": "\uadf8\ub798\ud504DB (Graph Database)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun",
+      "id": "aitech_graphdb",
+      "community": 1,
+      "norm_label": "\u1100\u1173\u1105\u1162\u1111\u1173db (graph database)"
+    },
+    {
+      "label": "\uadf8\ub798\ud504DB\ub294 \uc628\ud1a8\ub85c\uc9c0\uc758 \uc790\uc5f0\uc2a4\ub7ec\uc6b4 \uad6c\ud604\uccb4: RDBMS \uc720\uc5f0\uc131 \ud55c\uacc4 \uadf9\ubcf5",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uc628\ud1a8\ub85c\uc9c0\uc640 \uadf8\ub798\ud504DB\uc758 \uad00\uacc4 \uc139\uc158",
+      "source_url": null,
+      "captured_at": null,
+      "author": "\uae40\uc120\uc601",
+      "contributor": null,
+      "id": "rationale_graphdb_vs_rdbms_flexibility",
+      "community": 1,
+      "norm_label": "\u1100\u1173\u1105\u1162\u1111\u1173db\u1102\u1173\u11ab \u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175\u110b\u1174 \u110c\u1161\u110b\u1167\u11ab\u1109\u1173\u1105\u1165\u110b\u116e\u11ab \u1100\u116e\u1112\u1167\u11ab\u110e\u1166: rdbms \u110b\u1172\u110b\u1167\u11ab\u1109\u1165\u11bc \u1112\u1161\u11ab\u1100\u1168 \u1100\u1173\u11a8\u1107\u1169\u11a8"
+    },
+    {
+      "label": "\uc18c\uc2a4: \uc628\ud1a8\ub85c\uc9c0 \uae30\ubc18 \uadf8\ub798\ud504DB \uad6c\ucd95 \ubc29\ubc95\ub860 (\uc5d4\ucf54\uc544 \uae40\uc120\uc601)",
+      "source_file": "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md",
+      "file_type": "concept",
+      "id": "sources_ontology_graphdb_encored",
+      "community": 1,
+      "norm_label": "\u1109\u1169\u1109\u1173: \u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175 \u1100\u1175\u1107\u1161\u11ab \u1100\u1173\u1105\u1162\u1111\u1173db \u1100\u116e\u110e\u116e\u11a8 \u1107\u1161\u11bc\u1107\u1165\u11b8\u1105\u1169\u11ab (\u110b\u1166\u11ab\u110f\u1169\u110b\u1161 \u1100\u1175\u11b7\u1109\u1165\u11ab\u110b\u1167\u11bc)"
+    },
+    {
+      "label": "\uc18c\uc2a4: AI\ub294 \uc65c \ud2c0\ub9ac\ub294\uac00? \uadf8 \ub2f5\uc740 \uc628\ud1a8\ub85c\uc9c0\uc5d0 \uc788\ub2e4 (\ud55c\uad6d\ub525\ub7ec\ub2dd)",
+      "file_type": "document",
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": null,
+      "source_url": "https://www.koreadeep.com/blog/ai-hallucination-ontology",
+      "captured_at": "2026-03-03",
+      "author": "\ud55c\uad6d\ub525\ub7ec\ub2dd",
+      "contributor": "Dohun",
+      "id": "sources_ai_hallucination_ontology",
+      "community": 0,
+      "norm_label": "\u1109\u1169\u1109\u1173: ai\u1102\u1173\u11ab \u110b\u116b \u1110\u1173\u11af\u1105\u1175\u1102\u1173\u11ab\u1100\u1161? \u1100\u1173 \u1103\u1161\u11b8\u110b\u1173\u11ab \u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175\u110b\u1166 \u110b\u1175\u11bb\u1103\u1161 (\u1112\u1161\u11ab\u1100\u116e\u11a8\u1103\u1175\u11b8\u1105\u1165\u1102\u1175\u11bc)"
+    },
+    {
+      "label": "\ub370\uc774\ud130 \ubaa8\ub378 vs \uc628\ud1a8\ub85c\uc9c0: \uc800\uc7a5 \uc815\uaddc\ud654 vs \uc758\ubbf8 \uc815\uaddc\ud654",
+      "file_type": "rationale",
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\ud575\uc2ec \uc8fc\uc7a5 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": "\ud55c\uad6d\ub525\ub7ec\ub2dd",
+      "contributor": null,
+      "id": "rationale_data_model_vs_ontology",
+      "community": 2,
+      "norm_label": "\u1103\u1166\u110b\u1175\u1110\u1165 \u1106\u1169\u1103\u1166\u11af vs \u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175: \u110c\u1165\u110c\u1161\u11bc \u110c\u1165\u11bc\u1100\u1172\u1112\u116a vs \u110b\u1174\u1106\u1175 \u110c\u1165\u11bc\u1100\u1172\u1112\u116a"
+    },
+    {
+      "label": "\uc18c\uc2a4: \uba40\ud2f0 \uc5d0\uc774\uc804\ud2b8 \uc2dc\ub300, \uae30\uc5c5 \ubb38\uc11c \uc5c5\ubb34 \uc790\ub3d9\ud654\ub3c4 '\uad00\ub9ac \uac00\ub2a5\ud55c AI'\uac00 \ud544\uc694\ud558\ub2e4 (\ud55c\uad6d\ub525\ub7ec\ub2dd)",
+      "file_type": "document",
+      "source_file": "wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": null,
+      "source_url": "https://www.koreadeep.com/blog/multi-agent-ai-document-automation",
+      "captured_at": "2026-05-19",
+      "author": "\ud55c\uad6d\ub525\ub7ec\ub2dd",
+      "contributor": "Dohun",
+      "id": "sources_multi_agent_doc_auto",
+      "community": 0,
+      "norm_label": "\u1109\u1169\u1109\u1173: \u1106\u1165\u11af\u1110\u1175 \u110b\u1166\u110b\u1175\u110c\u1165\u11ab\u1110\u1173 \u1109\u1175\u1103\u1162, \u1100\u1175\u110b\u1165\u11b8 \u1106\u116e\u11ab\u1109\u1165 \u110b\u1165\u11b8\u1106\u116e \u110c\u1161\u1103\u1169\u11bc\u1112\u116a\u1103\u1169 '\u1100\u116a\u11ab\u1105\u1175 \u1100\u1161\u1102\u1173\u11bc\u1112\u1161\u11ab ai'\u1100\u1161 \u1111\u1175\u11af\u110b\u116d\u1112\u1161\u1103\u1161 (\u1112\u1161\u11ab\u1100\u116e\u11a8\u1103\u1175\u11b8\u1105\u1165\u1102\u1175\u11bc)"
+    },
+    {
+      "label": "\uc18c\uc2a4: \uc628\ud1a8\ub85c\uc9c0 - \uc704\ud0a4\ubc31\uacfc",
+      "file_type": "document",
+      "source_file": "wiki/sources/\uc628\ud1a8\ub85c\uc9c0-\uc704\ud0a4\ud53c\ub514\uc544.md",
+      "source_location": null,
+      "source_url": "https://ko.wikipedia.org/wiki/\uc628\ud1a8\ub85c\uc9c0",
+      "captured_at": null,
+      "author": "Wikipedia",
+      "contributor": "Dohun",
+      "id": "sources_ontology_wikipedia",
+      "community": 2,
+      "norm_label": "\u1109\u1169\u1109\u1173: \u110b\u1169\u11ab\u1110\u1169\u11af\u1105\u1169\u110c\u1175 - \u110b\u1171\u110f\u1175\u1107\u1162\u11a8\u1100\u116a"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_files": [
+        "wiki/CLAUDE.md"
+      ],
+      "source": "wiki_claude",
+      "target": "wiki_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/self/\ub098\uc758 \uc704\ud0a4 \uc2dc\uc2a4\ud15c.md",
+      "source_location": "\uc124\uacc4 \ubc30\uacbd \uc139\uc158",
+      "weight": 1.0,
+      "source": "rationale_wiki_ingest_workflow",
+      "target": "self_wiki_system"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md",
+      "source_location": "AI Ready Data\uc640\uc758 \uad00\uacc4: \uc628\ud1a8\ub85c\uc9c0 \uc124\uacc4 \u2192 \uc9c0\uc2dd\uadf8\ub798\ud504 \u2192 \uadf8\ub798\ud504DB",
+      "weight": 0.85,
+      "source": "aitech_ontology",
+      "target": "axsil_ai_ready_data"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_knowledge_graph",
+      "target": "axsil_ai_ready_data"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_graphdb",
+      "target": "axsil_ai_ready_data"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/AI-Ready-Data.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "axsil_ai_ready_data",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "\ub450 \uac1c\ub150 \ubaa8\ub450 \uae30\uc5c5 AI \ub3c4\uc785\uc758 \uac70\ubc84\ub10c\uc2a4/\uc2e0\ub8b0 \ubb38\uc81c\ub97c \ub2e4\ub8f8",
+      "weight": 0.65,
+      "source": "axsil_manageable_auto",
+      "target": "axsil_ai_ready_data"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/AI-Ready-Data.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source_files": [
+        "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md"
+      ],
+      "source": "sources_ontology_graphdb_encored",
+      "target": "axsil_ai_ready_data"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/AI-Ready-Data.md",
+      "source_location": "\uc65c AI Ready Data\uac00 \uc911\uc694\ud55c\uac00 \uc139\uc158",
+      "weight": 1.0,
+      "source": "rationale_ai_ready_data_failure_pattern",
+      "target": "axsil_ai_ready_data"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "axsil_manageable_auto",
+      "target": "axsil_multi_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uae30\uc5c5-\ubb38\uc11c-\uc790\ub3d9\ud654.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "axsil_enterprise_doc_auto",
+      "target": "axsil_multi_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_multi_agent_doc_auto",
+      "target": "axsil_multi_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_knowledge_graph",
+      "target": "axsil_multi_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_ontology",
+      "target": "axsil_multi_agent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "axsil_manageable_auto",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_ontology",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\ud560\ub8e8\uc2dc\ub124\uc774\uc158.md",
+      "source_location": "\uae30\uc5c5 \ubb38\uc11c\uc5d0\uc11c \ubc1c\uc0dd\ud558\ub294 \uad6c\uccb4\uc801 \ud328\ud134 \uc139\uc158",
+      "weight": 0.85,
+      "source": "aitech_hallucination",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_multi_agent_doc_auto",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_ai_hallucination_ontology",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_graphdb",
+      "target": "axsil_enterprise_doc_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_files": [
+        "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md"
+      ],
+      "source": "sources_ontology_graphdb_encored",
+      "target": "axsil_enterprise_doc_auto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_ontology",
+      "target": "axsil_manageable_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\ud560\ub8e8\uc2dc\ub124\uc774\uc158.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_hallucination",
+      "target": "axsil_manageable_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_multi_agent_doc_auto",
+      "target": "axsil_manageable_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_ai_hallucination_ontology",
+      "target": "axsil_manageable_auto"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "\uc790\ub3d9\ud654\uc758 \ubc94\uc704 vs \ud1b5\uc81c \uac00\ub2a5\uc131 \ud2b8\ub808\uc774\ub4dc\uc624\ud504 \uc139\uc158",
+      "weight": 1.0,
+      "source": "rationale_manageable_vs_maximal_auto",
+      "target": "axsil_manageable_auto"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-\uc2e4\ubb34/\uad00\ub9ac-\uac00\ub2a5\ud55c-\uc790\ub3d9\ud654.md",
+      "source_location": "Human-in-the-loop \uc139\uc158",
+      "weight": 1.0,
+      "source": "rationale_hitl_design",
+      "target": "axsil_manageable_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_files": [
+        "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md"
+      ],
+      "source": "sources_ontology_graphdb_encored",
+      "target": "axsil_manageable_auto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_graphdb",
+      "target": "aitech_knowledge_graph"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "\uc628\ud1a8\ub85c\uc9c0\uc758 \uad6c\ud604 \ub3c4\uad6c: \uadf8\ub798\ud504DB \uc139\uc158, AI Ready Data\uc640\uc758 \uad00\uacc4 \uc139\uc158",
+      "weight": 0.95,
+      "source": "aitech_ontology",
+      "target": "aitech_knowledge_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source_files": [
+        "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md"
+      ],
+      "source": "sources_ontology_graphdb_encored",
+      "target": "aitech_knowledge_graph"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_ontology",
+      "target": "aitech_hallucination"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_ai_hallucination_ontology",
+      "target": "aitech_hallucination"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "aitech_graphdb",
+      "target": "aitech_ontology"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_ai_hallucination_ontology",
+      "target": "aitech_ontology"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/\uc628\ud1a8\ub85c\uc9c0-\uc704\ud0a4\ud53c\ub514\uc544.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_ontology_wikipedia",
+      "target": "aitech_ontology"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source_files": [
+        "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md"
+      ],
+      "source": "sources_ontology_graphdb_encored",
+      "target": "aitech_ontology"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc628\ud1a8\ub85c\uc9c0.md",
+      "source_location": "Dohun\uc758 \ud575\uc2ec \uc778\uc0ac\uc774\ud2b8 \uc139\uc158",
+      "weight": 1.0,
+      "source": "rationale_ontology_upstream_design",
+      "target": "aitech_ontology"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\ud575\uc2ec \uc8fc\uc7a5 2",
+      "weight": 1.0,
+      "source": "rationale_data_model_vs_ontology",
+      "target": "aitech_ontology"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source_files": [
+        "wiki/sources/\uc628\ud1a8\ub85c\uc9c0\uadf8\ub798\ud504DB-\uc5d4\ucf54\uc544-\uae40\uc120\uc601.md"
+      ],
+      "source": "sources_ontology_graphdb_encored",
+      "target": "aitech_graphdb"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uadf8\ub798\ud504DB.md",
+      "source_location": "\uc628\ud1a8\ub85c\uc9c0\uc640 \uadf8\ub798\ud504DB\uc758 \uad00\uacc4 \uc139\uc158",
+      "weight": 1.0,
+      "source": "rationale_graphdb_vs_rdbms_flexibility",
+      "target": "aitech_graphdb"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "wiki/sources/AI\ub294\uc65c\ud2c0\ub9ac\ub294\uac00-\uc628\ud1a8\ub85c\uc9c0-\ud55c\uad6d\ub525\ub7ec\ub2dd.md",
+      "source_location": "\uac19\uc740 \uc800\uc790(\ud55c\uad6d\ub525\ub7ec\ub2dd), \uae30\uc5c5 AI/\ubb38\uc11c \uc790\ub3d9\ud654 \uc8fc\uc81c \uacf5\uc720",
+      "weight": 0.75,
+      "source": "sources_ai_hallucination_ontology",
+      "target": "sources_multi_agent_doc_auto"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/\uc628\ud1a8\ub85c\uc9c0-\uc704\ud0a4\ud53c\ub514\uc544.md",
+      "source_location": "\uad00\ub828 \ud398\uc774\uc9c0 \uc139\uc158",
+      "weight": 1.0,
+      "source": "sources_ontology_wikipedia",
+      "target": "sources_ai_hallucination_ontology"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ontology_graphdb_knowledge_graph_stack",
+      "label": "\uc628\ud1a8\ub85c\uc9c0 \u2192 \uc9c0\uc2dd\uadf8\ub798\ud504 \u2192 \uadf8\ub798\ud504DB: AI Ready Data \uad6c\ud604 \uc2a4\ud0dd",
+      "nodes": [
+        "aitech_ontology",
+        "aitech_knowledge_graph",
+        "aitech_graphdb",
+        "axsil_ai_ready_data"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\uc9c0\uc2dd-\uadf8\ub798\ud504-\ub514\uc9c0\ud138-\ub9e5\ub77d\uc9c0\ub3c4.md"
+    },
+    {
+      "id": "hallucination_ontology_rag_design",
+      "label": "\ud560\ub8e8\uc2dc\ub124\uc774\uc158 \uc6d0\uc778 \u2192 \uc628\ud1a8\ub85c\uc9c0 \ud574\uacb0 \u2192 RAG \uc124\uacc4 \uac1c\uc120",
+      "nodes": [
+        "aitech_hallucination",
+        "aitech_ontology",
+        "axsil_enterprise_doc_auto"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "wiki/concepts/ai-\uae30\uc220/\ud560\ub8e8\uc2dc\ub124\uc774\uc158.md"
+    },
+    {
+      "id": "multi_agent_doc_auto_manageable_ax_pattern",
+      "label": "\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8 + \uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654 + \uad00\ub9ac\uac00\ub2a5\ud55c\uc790\ub3d9\ud654: AX \uc124\uacc4 \ud575\uc2ec \uc0bc\uac01\ud615",
+      "nodes": [
+        "axsil_multi_agent",
+        "axsil_enterprise_doc_auto",
+        "axsil_manageable_auto"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/sources/\uba40\ud2f0\uc5d0\uc774\uc804\ud2b8-\uae30\uc5c5\ubb38\uc11c\uc790\ub3d9\ud654-\ud55c\uad6d\ub525\ub7ec\ub2dd.md"
+    }
+  ],
+  "built_at_commit": "5d1a4552ce8c980dedf5e76dc926fdb9d3e563b2"
+}

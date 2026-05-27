@@ -1,0 +1,1314 @@
+{
+  "nodes": [
+    {
+      "id": "wiki_log",
+      "label": "Wiki Log",
+      "file_type": "document",
+      "source_file": "wiki/log.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "wiki_index",
+      "label": "Wiki Index",
+      "file_type": "document",
+      "source_file": "wiki/index.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "wiki_claude",
+      "label": "wiki/ 운영 규칙 (CLAUDE.md)",
+      "file_type": "document",
+      "source_file": "wiki/CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "self_wiki_system",
+      "label": "나의 위키 시스템",
+      "file_type": "document",
+      "source_file": "wiki/self/나의 위키 시스템.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-22",
+      "author": "Dohun",
+      "contributor": null
+    },
+    {
+      "id": "people_kim_sunnyoung",
+      "label": "김선영 (엔코아)",
+      "file_type": "document",
+      "source_file": "wiki/people/김선영-엔코아.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "axsil_ai_ready_data",
+      "label": "AI Ready Data",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "axsil_multi_agent",
+      "label": "멀티 에이전트 (Multi-Agent)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-실무/멀티-에이전트.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "axsil_enterprise_doc_auto",
+      "label": "기업 문서 자동화 (Enterprise Document Automation)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "axsil_manageable_auto",
+      "label": "관리 가능한 자동화 (Manageable Automation)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "aitech_knowledge_graph",
+      "label": "지식 그래프 & 디지털 맥락지도",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "aitech_hallucination",
+      "label": "할루시네이션 (Hallucination)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "aitech_ontology",
+      "label": "온톨로지 (Ontology)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "aitech_graphdb",
+      "label": "그래프DB (Graph Database)",
+      "file_type": "concept",
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-27",
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "sources_ontology_graphdb_encored",
+      "label": "소스: 온톨로지 기반 그래프DB 구축 방법론 (엔코아 김선영)",
+      "file_type": "document",
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": null,
+      "source_url": "https://www.youtube.com/watch?v=qJCvRmEHVkM",
+      "captured_at": "2026-04-17",
+      "author": "김선영",
+      "contributor": "Dohun"
+    },
+    {
+      "id": "sources_ai_hallucination_ontology",
+      "label": "소스: AI는 왜 틀리는가? 그 답은 온톨로지에 있다 (한국딥러닝)",
+      "file_type": "document",
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": null,
+      "source_url": "https://www.koreadeep.com/blog/ai-hallucination-ontology",
+      "captured_at": "2026-03-03",
+      "author": "한국딥러닝",
+      "contributor": "Dohun"
+    },
+    {
+      "id": "sources_multi_agent_doc_auto",
+      "label": "소스: 멀티 에이전트 시대, 기업 문서 업무 자동화도 '관리 가능한 AI'가 필요하다 (한국딥러닝)",
+      "file_type": "document",
+      "source_file": "wiki/sources/멀티에이전트-기업문서자동화-한국딥러닝.md",
+      "source_location": null,
+      "source_url": "https://www.koreadeep.com/blog/multi-agent-ai-document-automation",
+      "captured_at": "2026-05-19",
+      "author": "한국딥러닝",
+      "contributor": "Dohun"
+    },
+    {
+      "id": "sources_ontology_wikipedia",
+      "label": "소스: 온톨로지 - 위키백과",
+      "file_type": "document",
+      "source_file": "wiki/sources/온톨로지-위키피디아.md",
+      "source_location": null,
+      "source_url": "https://ko.wikipedia.org/wiki/온톨로지",
+      "captured_at": null,
+      "author": "Wikipedia",
+      "contributor": "Dohun"
+    },
+    {
+      "id": "rationale_ontology_upstream_design",
+      "label": "온톨로지 업스트림 설계가 다운스트림 엔지니어링을 결정한다",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "Dohun의 핵심 인사이트 섹션",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Dohun",
+      "contributor": null
+    },
+    {
+      "id": "rationale_data_model_vs_ontology",
+      "label": "데이터 모델 vs 온톨로지: 저장 정규화 vs 의미 정규화",
+      "file_type": "rationale",
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "핵심 주장 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": "한국딥러닝",
+      "contributor": null
+    },
+    {
+      "id": "rationale_manageable_vs_maximal_auto",
+      "label": "자동화 범위 vs 통제 가능성 트레이드오프",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "자동화의 범위 vs 통제 가능성 트레이드오프 섹션",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "rationale_ai_ready_data_failure_pattern",
+      "label": "기업 AI 도입 실패 패턴: 기술 먼저 → 데이터 준비 부족 → 실망",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "기업 AI 도입 실패의 패턴 섹션",
+      "source_url": null,
+      "captured_at": null,
+      "author": "김선영",
+      "contributor": null
+    },
+    {
+      "id": "rationale_graphdb_vs_rdbms_flexibility",
+      "label": "그래프DB는 온톨로지의 자연스러운 구현체: RDBMS 유연성 한계 극복",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "온톨로지와 그래프DB의 관계 섹션",
+      "source_url": null,
+      "captured_at": null,
+      "author": "김선영",
+      "contributor": null
+    },
+    {
+      "id": "rationale_hitl_design",
+      "label": "Human-in-the-loop: 개입 제거가 아닌 개입 지점 설계가 목표",
+      "file_type": "rationale",
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "Human-in-the-loop 섹션",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": "Dohun"
+    },
+    {
+      "id": "rationale_wiki_ingest_workflow",
+      "label": "인풋 단계 소스 분류 + AI 일관 정제 설계: RAG 구조 경험에서 도출",
+      "file_type": "rationale",
+      "source_file": "wiki/self/나의 위키 시스템.md",
+      "source_location": "설계 배경 섹션",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Dohun",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "wiki_log",
+      "target": "wiki_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/log.md",
+      "source_location": "업데이트: [[index.md]]",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_log",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/log.md",
+      "source_location": "2026-05-27 ingest 엔코아 김선영",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_log",
+      "target": "sources_ontology_wikipedia",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/log.md",
+      "source_location": "2026-05-27 ingest 온톨로지 위키피디아",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_log",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/log.md",
+      "source_location": "2026-05-27 ingest 한국딥러닝 온톨로지",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_log",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/log.md",
+      "source_location": "2026-05-27 ingest 한국딥러닝 멀티에이전트",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AI 기술 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "aitech_hallucination",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AI 기술 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "aitech_graphdb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AI 기술 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "aitech_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AI 기술 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "axsil_multi_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AX 실무 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AX 실무 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AX 실무 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "axsil_ai_ready_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "개념 — AX 실무 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "people_kim_sunnyoung",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "사람·조직 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "self_wiki_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "나 자신 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "소스 요약 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "소스 요약 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "소스 요약 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "wiki_index",
+      "target": "sources_ontology_wikipedia",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/index.md",
+      "source_location": "소스 요약 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "people_kim_sunnyoung",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/people/김선영-엔코아.md",
+      "source_location": "참고 소스 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "people_kim_sunnyoung",
+      "target": "axsil_ai_ready_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/people/김선영-엔코아.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "people_kim_sunnyoung",
+      "target": "aitech_graphdb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/people/김선영-엔코아.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "people_kim_sunnyoung",
+      "target": "aitech_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/people/김선영-엔코아.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "people_kim_sunnyoung",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/people/김선영-엔코아.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "aitech_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "4. 맥락(Context) 섹션 및 관련 페이지",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "aitech_graphdb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_ai_ready_data_failure_pattern",
+      "target": "axsil_ai_ready_data",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "왜 AI Ready Data가 중요한가 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_multi_agent",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/멀티-에이전트.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_multi_agent",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/멀티-에이전트.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_multi_agent",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/멀티-에이전트.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_enterprise_doc_auto",
+      "target": "axsil_multi_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_enterprise_doc_auto",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_enterprise_doc_auto",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": "온톨로지와의 연결 섹션 및 관련 페이지",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_enterprise_doc_auto",
+      "target": "aitech_hallucination",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_enterprise_doc_auto",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_enterprise_doc_auto",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/기업-문서-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "axsil_multi_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "온톨로지와의 연결 섹션 및 관련 페이지",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "aitech_hallucination",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_manageable_vs_maximal_auto",
+      "target": "axsil_manageable_auto",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "자동화의 범위 vs 통제 가능성 트레이드오프 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_hitl_design",
+      "target": "axsil_manageable_auto",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "Human-in-the-loop 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_knowledge_graph",
+      "target": "aitech_graphdb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_knowledge_graph",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "관련 페이지 섹션 및 AI Ready Data와의 관계 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_knowledge_graph",
+      "target": "axsil_ai_ready_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_knowledge_graph",
+      "target": "axsil_multi_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_knowledge_graph",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_hallucination",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_hallucination",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_hallucination",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_hallucination",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "aitech_hallucination",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "axsil_multi_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "aitech_graphdb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "온톨로지의 구현 도구: 그래프DB 섹션 및 관련 페이지",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "aitech_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "sources_ontology_wikipedia",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_ontology_upstream_design",
+      "target": "aitech_ontology",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "Dohun의 핵심 인사이트 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_data_model_vs_ontology",
+      "target": "aitech_ontology",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "핵심 주장 2",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_graphdb",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_graphdb",
+      "target": "aitech_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_graphdb",
+      "target": "axsil_ai_ready_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_graphdb",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_graphdb",
+      "target": "sources_ontology_graphdb_encored",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_graphdb_vs_rdbms_flexibility",
+      "target": "aitech_graphdb",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/ai-기술/그래프DB.md",
+      "source_location": "온톨로지와 그래프DB의 관계 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "aitech_graphdb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "aitech_knowledge_graph",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "axsil_ai_ready_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "people_kim_sunnyoung",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "이 소스가 채워주는 것 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_graphdb_encored",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지그래프DB-엔코아-김선영.md",
+      "source_location": "이 소스가 채워주는 것 테이블",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ai_hallucination_ontology",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ai_hallucination_ontology",
+      "target": "aitech_hallucination",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ai_hallucination_ontology",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ai_hallucination_ontology",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ai_hallucination_ontology",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션 (같은 저자)",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_multi_agent_doc_auto",
+      "target": "axsil_multi_agent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/멀티에이전트-기업문서자동화-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_multi_agent_doc_auto",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/멀티에이전트-기업문서자동화-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_multi_agent_doc_auto",
+      "target": "axsil_manageable_auto",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/멀티에이전트-기업문서자동화-한국딥러닝.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_wikipedia",
+      "target": "aitech_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지-위키피디아.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "sources_ontology_wikipedia",
+      "target": "sources_ai_hallucination_ontology",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/sources/온톨로지-위키피디아.md",
+      "source_location": "관련 페이지 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "rationale_wiki_ingest_workflow",
+      "target": "self_wiki_system",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/self/나의 위키 시스템.md",
+      "source_location": "설계 배경 섹션",
+      "weight": 1.0
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "aitech_knowledge_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ai-기술/온톨로지.md",
+      "source_location": "온톨로지의 구현 도구: 그래프DB 섹션, AI Ready Data와의 관계 섹션",
+      "weight": 0.95
+    },
+    {
+      "source": "aitech_hallucination",
+      "target": "axsil_enterprise_doc_auto",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md",
+      "source_location": "기업 문서에서 발생하는 구체적 패턴 섹션",
+      "weight": 0.85
+    },
+    {
+      "source": "axsil_multi_agent",
+      "target": "axsil_manageable_auto",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ax-실무/멀티-에이전트.md",
+      "source_location": "자동화의 범위가 넓어질수록 통제와 검증의 설계가 더 중요",
+      "weight": 0.95
+    },
+    {
+      "source": "aitech_knowledge_graph",
+      "target": "aitech_graphdb",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "AI Ready Data와의 관계 섹션: 그래프DB 저장 단계",
+      "weight": 0.95
+    },
+    {
+      "source": "axsil_ai_ready_data",
+      "target": "aitech_knowledge_graph",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ax-실무/AI-Ready-Data.md",
+      "source_location": "AI Ready Data 구성요소 2. 데이터 구조: 지식 그래프로 관계 구조화",
+      "weight": 0.95
+    },
+    {
+      "source": "aitech_ontology",
+      "target": "axsil_ai_ready_data",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md",
+      "source_location": "AI Ready Data와의 관계: 온톨로지 설계 → 지식그래프 → 그래프DB",
+      "weight": 0.85
+    },
+    {
+      "source": "sources_ai_hallucination_ontology",
+      "target": "sources_multi_agent_doc_auto",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "wiki/sources/AI는왜틀리는가-온톨로지-한국딥러닝.md",
+      "source_location": "같은 저자(한국딥러닝), 기업 AI/문서 자동화 주제 공유",
+      "weight": 0.75
+    },
+    {
+      "source": "axsil_manageable_auto",
+      "target": "axsil_ai_ready_data",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "wiki/concepts/ax-실무/관리-가능한-자동화.md",
+      "source_location": "두 개념 모두 기업 AI 도입의 거버넌스/신뢰 문제를 다룸",
+      "weight": 0.65
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ontology_graphdb_knowledge_graph_stack",
+      "label": "온톨로지 → 지식그래프 → 그래프DB: AI Ready Data 구현 스택",
+      "nodes": [
+        "aitech_ontology",
+        "aitech_knowledge_graph",
+        "aitech_graphdb",
+        "axsil_ai_ready_data"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/concepts/ai-기술/지식-그래프-디지털-맥락지도.md"
+    },
+    {
+      "id": "multi_agent_doc_auto_manageable_ax_pattern",
+      "label": "멀티에이전트 + 기업문서자동화 + 관리가능한자동화: AX 설계 핵심 삼각형",
+      "nodes": [
+        "axsil_multi_agent",
+        "axsil_enterprise_doc_auto",
+        "axsil_manageable_auto"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/sources/멀티에이전트-기업문서자동화-한국딥러닝.md"
+    },
+    {
+      "id": "hallucination_ontology_rag_design",
+      "label": "할루시네이션 원인 → 온톨로지 해결 → RAG 설계 개선",
+      "nodes": [
+        "aitech_hallucination",
+        "aitech_ontology",
+        "axsil_enterprise_doc_auto"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "wiki/concepts/ai-기술/할루시네이션.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
